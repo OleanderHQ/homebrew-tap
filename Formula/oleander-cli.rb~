@@ -1,0 +1,19 @@
+class OleanderCli < Formula
+  desc "Oleander CLI"
+  homepage "https://oleander.dev"
+  url "https://YOUR_BUCKET.s3.amazonaws.com/oleander-cli-0.1.0.tar.gz"
+  sha256 "REPLACE_WITH_SHA256"
+  license "MIT"
+
+  depends_on "node"
+
+  def install
+    # tar.gz 안에 들어있는 단일 실행 파일 이름이 "oleander" 라고 가정
+    bin.install "oleander"
+  end
+
+  test do
+    # 설치 후 실제로는 `oleander` 커맨드가 생긴다
+    system "#{bin}/oleander", "--help"
+  end
+end
