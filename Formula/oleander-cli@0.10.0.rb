@@ -9,6 +9,7 @@ class OleanderCliAT0100 < Formula
   keg_only :versioned_formula
 
   depends_on "node"
+  depends_on "uv"
 
   def install
     bin.install "oleander"
