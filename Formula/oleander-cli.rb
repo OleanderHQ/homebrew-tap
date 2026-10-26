@@ -6,8 +6,6 @@ class OleanderCli < Formula
   license "LicenseRef-OleanderHQ-Proprietary"
 
   depends_on "node"
-  depends_on "uv"
-  depends_on "duckdb"
 
   def install
     bin.install "oleander"
