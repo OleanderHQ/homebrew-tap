@@ -3,31 +3,31 @@
 class Snowbell < Formula
   desc "Interactive Polars SQL shell for the Oleander lake, with OpenLineage by default"
   homepage "https://oleander.dev"
-  version "0.1.0"
+  version "0.2.0"
   license "LicenseRef-OleanderHQ-Proprietary"
 
-  # Local mode runs Polars in a Python environment uv manages.
+  # Queries on this machine run Polars in a Python environment uv manages.
   depends_on "uv"
 
   on_macos do
     on_arm do
-      url "https://oleander-cli-releases.s3.amazonaws.com/snowbell/0.1.0/snowbell-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "7531344c7637ca45e376b4bfbce6554578f7ab54fecf7add016a7b1ea229a78f"
+      url "https://oleander-cli-releases.s3.amazonaws.com/snowbell/0.2.0/snowbell-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "3b35366cb5617e9b3b8d9b97615570524996fc0016324ef2c92525709f230f11"
     end
     on_intel do
-      url "https://oleander-cli-releases.s3.amazonaws.com/snowbell/0.1.0/snowbell-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "baea7dd7d0a4360a31f875882c3e8cd7a5e140e70660fa89aeb38f3ba1f90d03"
+      url "https://oleander-cli-releases.s3.amazonaws.com/snowbell/0.2.0/snowbell-0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "5c629e2ddcbd6de1dc64433103f373952d1ee568c1ec9eb5506885f59a0fe11f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://oleander-cli-releases.s3.amazonaws.com/snowbell/0.1.0/snowbell-0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "bc4950d64d92086bfb2d8b9fb31bbab6aeacd26bd807cb0353b465e88b8b6992"
+      url "https://oleander-cli-releases.s3.amazonaws.com/snowbell/0.2.0/snowbell-0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e3c555f18d1543aa80b001f1b12c901bee4494843f099eb285ea45562f3a999a"
     end
     on_intel do
-      url "https://oleander-cli-releases.s3.amazonaws.com/snowbell/0.1.0/snowbell-0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2a6011ef9ee1b60c2e6ce32bb2005e5003d7189b9354a8807f8e39cb3968ddc0"
+      url "https://oleander-cli-releases.s3.amazonaws.com/snowbell/0.2.0/snowbell-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "acc5f7d941fd4bac9526943a91d4086fb641b21dad339db9a128bd20e56d1556"
     end
   end
 
