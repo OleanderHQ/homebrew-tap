@@ -3,7 +3,7 @@
 class Snowbell < Formula
   desc "Interactive Polars SQL shell for the Oleander lake, with OpenLineage by default"
   homepage "https://oleander.dev"
-  version "0.2.0"
+  version "0.3.0"
   license "LicenseRef-OleanderHQ-Proprietary"
 
   # Queries on this machine run Polars in a Python environment uv manages.
@@ -11,23 +11,23 @@ class Snowbell < Formula
 
   on_macos do
     on_arm do
-      url "https://oleander-cli-releases.s3.amazonaws.com/snowbell/0.2.0/snowbell-0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "3b35366cb5617e9b3b8d9b97615570524996fc0016324ef2c92525709f230f11"
+      url "https://oleander-cli-releases.s3.amazonaws.com/snowbell/0.3.0/snowbell-0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "0fbc17f636f3d2900c2543ab5db6d3dd16c88c81161eefd030d3b178e343e239"
     end
     on_intel do
-      url "https://oleander-cli-releases.s3.amazonaws.com/snowbell/0.2.0/snowbell-0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "5c629e2ddcbd6de1dc64433103f373952d1ee568c1ec9eb5506885f59a0fe11f"
+      url "https://oleander-cli-releases.s3.amazonaws.com/snowbell/0.3.0/snowbell-0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "8426c242954ae0ed6d7b6c083329abb856b174968b94c69c8a160cfa53aba69e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://oleander-cli-releases.s3.amazonaws.com/snowbell/0.2.0/snowbell-0.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e3c555f18d1543aa80b001f1b12c901bee4494843f099eb285ea45562f3a999a"
+      url "https://oleander-cli-releases.s3.amazonaws.com/snowbell/0.3.0/snowbell-0.3.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "1b650cedcbb718bc80be134e5d2c70a5b9a22657fefa00c7fe439bbd0ee18dbe"
     end
     on_intel do
-      url "https://oleander-cli-releases.s3.amazonaws.com/snowbell/0.2.0/snowbell-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "acc5f7d941fd4bac9526943a91d4086fb641b21dad339db9a128bd20e56d1556"
+      url "https://oleander-cli-releases.s3.amazonaws.com/snowbell/0.3.0/snowbell-0.3.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "12dcf87df4796a1e647991cbc18b544a37dd43d258496714b77191058eb21618"
     end
   end
 
