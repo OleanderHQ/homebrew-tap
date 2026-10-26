@@ -1,8 +1,8 @@
 class OleanderCli < Formula
   desc "Oleander CLI"
   homepage "https://oleander.dev"
-  url "https://oleander-cli-releases.s3.amazonaws.com/oleander-cli-oleander-cli-v0.21.0.tar.gz"
-  sha256 "089272c8865739e718c3dc20e5195a0d7fb5d5cfaf98cb432a60ae360870efad"
+  url "https://oleander-cli-releases.s3.amazonaws.com/oleander-cli-oleander-cli-v0.22.0.tar.gz"
+  sha256 "8f9ee6053c9d858efbf8657dc9460ee060c5044528ac65f6f819e8524e3fc924"
   license "LicenseRef-OleanderHQ-Proprietary"
 
   depends_on "node"
